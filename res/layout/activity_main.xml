@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="HardcodedText,ContentDescription" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" 
+        android:src="@drawable/login_screen"
+        android:scaleType="centerCrop"/>
+
+    <CheckBox
+        android:id="@+id/remember_me_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/user_email_editText"
+        android:layout_below="@+id/user_password_editText"
+        android:shadowColor="#88000000"
+        android:shadowDy="3"
+        android:shadowRadius="10"
+        android:text="@string/remember_me"
+        android:textColor="#cccccc"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/user_email_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_login"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="@string/user_email" >
+
+        <requestFocus />
+    </EditText>
+    
+    <EditText
+        android:id="@id/user_password_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_email_editText"
+        android:layout_alignLeft="@+id/user_email_editText"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/user_password" >
+        
+    </EditText>
+
+    <TextView
+        android:id="@+id/ride_share_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:shadowColor="#cc000000"
+        android:shadowDy="5"
+        android:shadowRadius="20"
+        android:text="@string/ride_share"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ddcccc"
+        android:textSize="55dp"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/remember_me_checkbox"
+        android:layout_centerHorizontal="true"
+        android:background="#00000000"
+        android:minWidth="200dp"
+        android:onClick="loginClick"
+        android:shadowColor="#cc000000"
+        android:shadowDy="3"
+        android:shadowRadius="10"
+        android:text="@string/login"
+        android:textColor="#cccccc"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_login"
+        android:layout_below="@+id/button_login"
+        android:layout_marginTop="20dp"
+        android:background="#00000000"
+        android:minWidth="200dp"
+        android:onClick="regClick"
+        android:shadowColor="#cc000000"
+        android:shadowDy="3"
+        android:shadowRadius="10"
+        android:text="@string/i_am_new_user"
+        android:textColor="#cccccc"
+        android:textStyle="bold" />
+
+</RelativeLayout>

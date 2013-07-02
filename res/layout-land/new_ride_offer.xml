@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+    
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+	<ScrollView
+	    android:id="@+id/scrollView1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentTop="true" >
+	    
+		<RelativeLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" >
+		
+		    <TextView
+		        android:id="@+id/location_TV"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="4dp"
+		        android:text="@string/current_location_upper"
+		        android:textColor="#aaaaaa"
+		        android:textStyle="bold" />
+		
+		    <EditText
+		        android:id="@+id/destination_ET"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignLeft="@+id/location_ET"
+		        android:layout_alignParentRight="true"
+		        android:layout_below="@+id/destination_TV"
+		        android:layout_marginTop="3dp"
+		        android:ems="10"
+		        android:hint="@string/destination" />
+		
+		    <TextView
+		        android:id="@+id/cost_per_seat_header"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignBaseline="@+id/available_seats_header"
+		        android:layout_alignBottom="@+id/available_seats_header"
+		        android:layout_marginLeft="30dp"
+		        android:layout_toRightOf="@+id/location_TV"
+		        android:text="@string/cost_per_seat_upper"
+		        android:textColor="#aaaaaa"
+		        android:inputType="numberDecimal"
+		        android:textStyle="bold" />
+		
+		    <EditText
+		        android:id="@+id/available_seats_ET"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignLeft="@+id/available_seats_header"
+		        android:layout_below="@+id/available_seats_header"
+		        android:layout_toLeftOf="@+id/seat_cost_ET"
+		        android:ems="10"
+		        android:hint="@string/seats"
+		        android:inputType="number" />
+		
+		    <EditText
+		        android:id="@+id/seat_cost_ET"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignBaseline="@+id/available_seats_ET"
+		        android:layout_alignBottom="@+id/available_seats_ET"
+		        android:layout_alignLeft="@+id/cost_per_seat_header"
+		        android:ems="10"
+		        android:hint="@string/zero_currency" />
+		
+		    <EditText
+		        android:id="@+id/location_ET"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_alignParentRight="true"
+		        android:layout_below="@+id/location_TV"
+		        android:layout_marginTop="3dp"
+		        android:ems="10"
+		        android:hint="@string/current_location" />
+		
+		    <TextView
+		        android:id="@+id/destination_TV"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_below="@+id/location_ET"
+		        android:layout_marginLeft="4dp"
+		        android:layout_marginTop="20dp"
+		        android:text="@string/destination_upper"
+		        android:textColor="#aaaaaa"
+		        android:textStyle="bold" />
+		
+		    <TextView
+		        android:id="@+id/date_time_header"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_below="@+id/destination_ET"
+		        android:layout_marginLeft="4dp"
+		        android:layout_marginTop="20dp"
+		        android:text="@string/date_time_departure_upper"
+		        android:textColor="#aaaaaa"
+		        android:textStyle="bold" />
+		
+		    <EditText
+		        android:id="@+id/date_trip_ET"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignLeft="@+id/location_TV"
+		        android:layout_below="@+id/date_time_header"
+		        android:layout_marginTop="3dp"
+		        android:ems="10"
+		        android:hint="@string/date"
+		        android:inputType="date" >
+		
+		        <requestFocus />
+		    </EditText>
+		
+		    <TextView
+		        android:id="@+id/available_seats_header"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_below="@+id/time_trip_ET"
+		        android:layout_marginLeft="4dp"
+		        android:layout_marginTop="20dp"
+		        android:text="@string/available_seats_upper"
+		        android:textColor="#aaaaaa"
+		        android:textStyle="bold" />	
+		    <View
+		        android:layout_width="fill_parent"
+		        android:layout_height="1dp"
+		        android:layout_alignBottom="@+id/date_time_header"
+		        android:layout_alignParentLeft="true"
+		        android:layout_marginLeft="7dp"
+		        android:layout_marginRight="7dp"
+		        android:background="#cccccc" />
+		
+		    <View
+		        android:layout_width="fill_parent"
+		        android:layout_height="1dp"
+		        android:layout_alignBottom="@+id/destination_TV"
+		        android:layout_alignParentLeft="true"
+		        android:layout_marginLeft="7dp"
+		        android:layout_marginRight="7dp"
+		        android:background="#cccccc" />
+		
+		    <View
+		        android:layout_width="fill_parent"
+		        android:layout_height="1dp"
+		        android:layout_alignBottom="@+id/location_TV"
+		        android:layout_centerHorizontal="true"
+		        android:layout_marginLeft="7dp"
+		        android:layout_marginRight="7dp"
+		        android:background="#cccccc" />
+		
+		    <View
+		        android:layout_width="fill_parent"
+		        android:layout_height="1dp"
+		        android:layout_alignBottom="@+id/cost_per_seat_header"
+		        android:layout_alignParentLeft="true"
+		        android:layout_marginLeft="7dp"
+		        android:layout_marginRight="7dp"
+		        android:background="#cccccc" />
+	        <Button
+		        android:id="@+id/post_offer_button"
+		        style="?android:attr/buttonStyleSmall"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@+id/available_seats_ET"
+		        android:layout_alignParentLeft="true"
+		        android:layout_alignParentRight="true"
+		        android:background="@android:color/holo_orange_dark"
+		        android:onClick="postClickO"
+		        android:text="@string/post"
+		        android:textColor="#ffffff" />
+
+	        <EditText
+	            android:id="@+id/time_trip_ET"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignBaseline="@+id/date_trip_ET"
+	            android:layout_alignBottom="@+id/date_trip_ET"
+	            android:layout_toRightOf="@+id/date_trip_ET"
+	            android:ems="10"
+	            android:hint="@string/time_pickup" />
+
+		</RelativeLayout>
+	</ScrollView>
+</RelativeLayout>

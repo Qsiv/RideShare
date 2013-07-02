@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="ObsoleteLayoutParam" >
+
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="353dp"
+	    tools:context=".MainActivity"
+	    tools:ignore="ObsoleteLayoutParam" >
+
+	    <RadioGroup
+	        android:id="@+id/radioGroup1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/date_ET"
+	        android:layout_centerHorizontal="true"
+	        android:orientation="horizontal" >
+
+	        <RadioButton
+	            android:id="@+id/radio_offer"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:checked="true"
+	            android:text="@string/offer"
+	            tools:ignore="HardcodedText" />
+
+	        <RadioButton
+	            android:id="@+id/radio_request"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/request"
+	            tools:ignore="HardcodedText" />
+	    </RadioGroup>
+
+	    <TextView
+	        android:id="@+id/cur_location_section_header"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginTop="5dp"
+	        android:text="@string/location_upper"
+	        android:textColor="#aaaaaa"
+	        android:textStyle="bold" />
+
+	    <View
+	        android:id="@+id/view1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="1dip"
+	        android:layout_alignBottom="@+id/cur_location_section_header"
+	        android:layout_alignParentLeft="true"
+	        android:layout_marginLeft="3dp"
+	        android:layout_marginRight="3dp"
+	        android:background="#cccccc" />
+
+	    <EditText
+	        android:id="@+id/cur_location_editText"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/view1"
+	        android:layout_marginRight="20dp"
+	        android:ems="10"
+	        android:hint="@string/location"
+	        android:inputType="textPostalAddress"
+	        tools:ignore="HardcodedText" >
+
+	        <requestFocus />
+	    </EditText>
+
+	    <TextView
+	        android:id="@+id/dest_section_header"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/cur_location_editText"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginTop="20dp"
+	        android:text="@string/destination_upper"
+	        android:textColor="#aaaaaa"
+	        android:textStyle="bold" />
+
+	    <View
+	        android:id="@+id/view2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="1dip"
+	        android:layout_alignBottom="@+id/dest_section_header"
+	        android:layout_alignParentLeft="true"
+	        android:layout_marginLeft="3dp"
+	        android:layout_marginRight="3dp"
+	        android:background="#cccccc" />
+
+	    <EditText
+	        android:id="@+id/dest_editText"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/view2"
+	        android:layout_marginRight="20dp"
+	        android:ems="10"
+	        android:hint="@string/destination"
+	        android:inputType="textPostalAddress"
+	        tools:ignore="HardcodedText" />
+
+	    <TextView
+	        android:id="@+id/date_time_range_section_header"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/dest_editText"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginTop="20dp"
+	        android:text="@string/date_time_departure_upper"
+	        android:textAppearance="?android:attr/textAppearanceSmall"
+	        android:textColor="#aaaaaa"
+	        android:textStyle="bold"
+	        tools:ignore="HardcodedText" />
+
+	    <View
+	        android:id="@+id/view3"
+	        android:layout_width="fill_parent"
+	        android:layout_height="1dip"
+	        android:layout_alignBottom="@+id/date_time_range_section_header"
+	        android:layout_alignParentLeft="true"
+	        android:layout_marginLeft="3dp"
+	        android:layout_marginRight="3dp"
+	        android:background="#cccccc" />
+
+	    <EditText
+	        android:id="@+id/date_ET"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/view3"
+	        android:layout_marginRight="20dp"
+	        android:ems="10"
+	        android:hint="@string/date"
+	        android:inputType="date" />
+
+	    <TextView
+	        android:id="@+id/orderBy_TV"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignParentLeft="true"
+	        android:text="@string/order_by_tv" />
+	    
+	    <RadioGroup
+	        android:id="@+id/RadioGroup2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_toRightOf="@id/orderBy_TV"
+	        android:layout_below="@id/radioGroup1"
+	        android:orientation="horizontal" >
+
+	        <RadioButton
+	        android:id="@+id/radio_departure"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_marginLeft="26dp"
+	        android:checked="true"
+	        android:text="@string/by_departure" />
+	        
+	        <RadioButton
+	        android:id="@+id/radio_rating"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_marginLeft="26dp"
+	        android:checked="true"
+	        android:text="@string/by_rating" />
+	        
+	    </RadioGroup>
+
+	    <View
+	        android:id="@+id/View01"
+	        android:layout_width="fill_parent"
+	        android:layout_height="1dip"
+	        android:layout_alignParentLeft="true"
+	        android:layout_marginLeft="3dp"
+	        android:layout_marginRight="3dp"
+	        android:background="#cccccc" />
+
+
+	</RelativeLayout>
+
+</ScrollView>
+
+<Button
+	        android:id="@id/button_search"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_alignParentBottom="true"
+	        android:background="@android:color/holo_orange_dark"
+	        android:onClick="searchClick"
+	        android:text="@string/search"
+	        android:textColor="#ffffff"
+	        tools:ignore="HardcodedText" />
+
+</RelativeLayout>

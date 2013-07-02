@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/RideShare.iml" filepath="$PROJECT_DIR$/RideShare.iml" />
+      <module fileurl="file://$PROJECT_DIR$/endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/deviceinfoendpoint.iml" filepath="$PROJECT_DIR$/endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/deviceinfoendpoint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/endpoint-libs/libmessageEndpoint-v1/messageEndpoint/messageEndpoint.iml" filepath="$PROJECT_DIR$/endpoint-libs/libmessageEndpoint-v1/messageEndpoint/messageEndpoint.iml" />
+    </modules>
+  </component>
+</project>
+

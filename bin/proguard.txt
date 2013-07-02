@@ -1,0 +1,111 @@
+# view AndroidManifest.xml #generated:36
+-keep class com.example.rideshare.Dashboard { <init>(...); }
+
+# view AndroidManifest.xml #generated:22
+-keep class com.example.rideshare.GCMIntentService { <init>(...); }
+
+# view AndroidManifest.xml #generated:15
+-keep class com.example.rideshare.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:45
+-keep class com.example.rideshare.MyTrips { <init>(...); }
+
+# view AndroidManifest.xml #generated:44
+-keep class com.example.rideshare.Notifications { <init>(...); }
+
+# view AndroidManifest.xml #generated:40
+-keep class com.example.rideshare.Offer { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class com.example.rideshare.Payment { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class com.example.rideshare.Profile { <init>(...); }
+
+# view AndroidManifest.xml #generated:34
+-keep class com.example.rideshare.RegisterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:35
+-keep class com.example.rideshare.Registration { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class com.example.rideshare.Request { <init>(...); }
+
+# view AndroidManifest.xml #generated:38
+-keep class com.example.rideshare.Search { <init>(...); }
+
+# view AndroidManifest.xml #generated:41
+-keep class com.example.rideshare.SearchResults { <init>(...); }
+
+# view AndroidManifest.xml #generated:37
+-keep class com.example.rideshare.Share { <init>(...); }
+
+# view AndroidManifest.xml #generated:42
+-keep class com.example.rideshare.UserInfo { <init>(...); }
+
+# view AndroidManifest.xml #generated:23
+-keep class com.google.android.gcm.GCMBroadcastReceiver { <init>(...); }
+
+# onClick land/res/layout-land/activity_user_info.xml #generated:117
+-keepclassmembers class * { *** editEmail(...); }
+
+# onClick land/res/layout-land/activity_user_info.xml #generated:165
+-keepclassmembers class * { *** editLocation(...); }
+
+# onClick land/res/layout-land/activity_profile.xml #generated:35
+# onClick land/res/layout-land/activity_user_info.xml #generated:38
+# onClick res/layout/activity_profile.xml #generated:37
+-keepclassmembers class * { *** editName(...); }
+
+# onClick land/res/layout-land/activity_profile.xml #generated:184
+# onClick land/res/layout-land/activity_user_info.xml #generated:213
+# onClick res/layout/activity_profile.xml #generated:184
+-keepclassmembers class * { *** editPhone(...); }
+
+# onClick land/res/layout-land/activity_main.xml #generated:43
+# onClick res/layout/activity_main.xml #generated:72
+-keepclassmembers class * { *** loginClick(...); }
+
+# onClick res/layout/dashboard.xml #generated:58
+-keepclassmembers class * { *** notifClick(...); }
+
+# onClick land/res/layout-land/activity_payment.xml #generated:24
+# onClick res/layout/activity_payment.xml #generated:24
+-keepclassmembers class * { *** payClick(...); }
+
+# onClick land/res/layout-land/new_ride_offer.xml #generated:166
+# onClick res/layout/new_ride_offer.xml #generated:180
+-keepclassmembers class * { *** postClickO(...); }
+
+# onClick land/res/layout-land/new_ride_req.xml #generated:123
+# onClick res/layout/new_ride_req.xml #generated:125
+-keepclassmembers class * { *** postClickR(...); }
+
+# onClick res/layout/dashboard.xml #generated:9
+-keepclassmembers class * { *** profileClick(...); }
+
+# onClick land/res/layout-land/activity_main.xml #generated:86
+# onClick res/layout/activity_main.xml #generated:89
+-keepclassmembers class * { *** regClick(...); }
+
+# onClick land/res/layout-land/registration.xml #generated:156
+# onClick res/layout/registration.xml #generated:165
+-keepclassmembers class * { *** registerClick(...); }
+
+# onClick land/res/layout-land/dashboard.xml #generated:107
+# onClick res/layout/dashboard.xml #generated:107
+-keepclassmembers class * { *** requestClick(...); }
+
+# onClick land/res/layout-land/dashboard.xml #generated:207
+# onClick land/res/layout-land/ride_search.xml #generated:203
+# onClick res/layout/dashboard.xml #generated:207
+# onClick res/layout/ride_search.xml #generated:186
+-keepclassmembers class * { *** searchClick(...); }
+
+# onClick land/res/layout-land/dashboard.xml #generated:157
+# onClick res/layout/dashboard.xml #generated:157
+-keepclassmembers class * { *** shareClick(...); }
+
+# onClick res/layout/dashboard.xml #generated:257
+-keepclassmembers class * { *** tripClick(...); }
+

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.example.rideshare">
+
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="17"/>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+   <permission android:name="com.example.rideshare.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+
+   <uses-permission android:name="com.example.rideshare.permission.C2D_MESSAGE"/>
+   <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+   <uses-permission android:name="android.permission.WAKE_LOCK"/>
+   <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+   <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+   <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/Theme.Example">
+        <activity android:label="@string/app_name" android:name="com.example.rideshare.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <service android:name=".GCMIntentService"/>
+        <receiver android:name="com.google.android.gcm.GCMBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <category android:name="com.example.rideshare"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION"/>
+                <category android:name="com.example.rideshare"/>
+            </intent-filter>
+        </receiver>
+    
+        <activity android:launchMode="singleTop" android:name=".RegisterActivity"/>
+        <activity android:launchMode="singleTop" android:name=".Registration"/>
+        <activity android:launchMode="singleTop" android:name=".Dashboard"/>
+        <activity android:launchMode="singleTop" android:name=".Share"/>
+        <activity android:launchMode="singleTop" android:name=".Search"/>
+        <activity android:launchMode="singleTop" android:name=".Request"/>
+        <activity android:launchMode="singleTop" android:name=".Offer"/>
+        <activity android:launchMode="singleTop" android:name=".SearchResults"/>
+        <activity android:launchMode="singleTop" android:name=".UserInfo"/>
+        <activity android:launchMode="singleTop" android:name=".Profile"/>
+		<activity android:launchMode="singleTop" android:name=".Notifications"/>
+		<activity android:launchMode="singleTop" android:name=".MyTrips"/>
+		<activity android:launchMode="singleTop" android:name=".Payment"/>
+</application>
+
+</manifest>

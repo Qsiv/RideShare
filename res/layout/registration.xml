@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+	<ScrollView 
+	    	android:layout_width="match_parent"
+	    	android:layout_height="match_parent"
+	    	android:orientation="vertical" >
+	
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	
+	    <TextView
+	        android:id="@+id/name_section_header"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginTop="5dp"
+	        android:text="@string/name"
+	        android:textColor="#aaaaaa"
+	        android:textStyle="bold" />
+	
+		<View
+		    android:layout_width="fill_parent"
+		    android:layout_height="1dip"
+		    android:layout_margin="3dp"
+		    android:background="#cccccc" />
+	
+	    <EditText
+	        android:id="@+id/field_Name"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginRight="20dp"
+	        android:ems="10"
+	        android:hint="@string/name_lower"
+	        android:inputType="text">
+	
+	    </EditText>
+	
+	    <TextView
+	        android:id="@+id/email_section_header"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginTop="20dp"
+	        android:text="@string/email_upper"
+	        android:textColor="#aaaaaa"
+	        android:textStyle="bold" />
+	
+		<View
+		    android:layout_width="fill_parent"
+		    android:layout_height="1dip"
+		    android:layout_margin="3dp"
+		    android:background="#cccccc" />
+	
+	    <EditText
+	        android:id="@+id/field_email"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginRight="20dp"
+	        android:ems="10"
+	        android:hint="@string/email_lower"
+	        android:inputType="textEmailAddress"
+	        android:paddingRight="0dp" />
+	    
+	    <TextView
+	        android:id="@+id/password_section_header"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginTop="20dp"
+	        android:text="@string/password_upper"
+	        android:textColor="#aaaaaa"
+	        android:textStyle="bold" />
+	
+		<View
+		    android:layout_width="fill_parent"
+		    android:layout_height="1dip"
+		    android:layout_margin="3dp"
+		    android:background="#cccccc" />
+	
+	    <EditText
+	        android:id="@+id/field_password"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginRight="20dp"
+	        android:ems="10"
+	        android:hint="@string/password_lower"
+	        android:inputType="textPassword"
+	        android:paddingRight="0dp" />
+	
+	    <TextView
+	        android:id="@+id/phone_number_header"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginTop="20dp"
+	        android:text="@string/phone_number_upper"
+	        android:textColor="#aaaaaa"
+	        android:textStyle="bold" />
+	
+	    <View
+	        android:layout_width="fill_parent"
+	        android:layout_height="1dip"
+	        android:layout_margin="3dp"
+	        android:background="#cccccc" />
+	
+	    <EditText
+	            android:id="@+id/field_phone"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="5dp"
+	            android:layout_marginRight="20dp"
+	            android:ems="10"
+	            android:hint="@string/phone_number"
+	            android:paddingRight="0dp"
+	            android:inputType="phone"/>
+	
+	    <TextView
+	        android:id="@+id/optional_section_header"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginTop="20dp"
+	        android:text="@string/optional_upper"
+	        android:textColor="#aaaaaa"
+	        android:textStyle="bold" />
+	
+		<View
+		    android:layout_width="fill_parent"
+		    android:layout_height="1dip"
+		    android:layout_margin="3dp"
+		    android:background="#cccccc" />
+	    
+	    <EditText
+	        android:id="@+id/field_carModel"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginRight="20dp"
+	        android:ems="10"
+	        android:hint="@string/car_model"
+	        android:inputType="text"/>
+	
+	    <EditText
+	        android:id="@+id/field_carYear"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginRight="20dp"
+	        android:ems="10"
+	        android:hint="@string/car_year"
+	        android:inputType="text|number" />
+		</LinearLayout>
+	</ScrollView>
+
+	<Button
+	    android:id="@+id/button_register"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentLeft="true"
+	    android:background="@android:color/holo_orange_dark"
+	    android:onClick="registerClick"
+	    android:text="@string/register"
+	    android:textColor="#ffffff" />
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="myapp-deviceinfoendpoint-v1-20130521045826-java-1.14.2-beta-sources">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/myapp-deviceinfoendpoint-v1-20130521045826-java-1.14.2-beta-sources.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

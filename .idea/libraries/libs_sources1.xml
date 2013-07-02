@@ -1,0 +1,36 @@
+<component name="libraryTable">
+  <library name="libs-sources1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs-sources/gson-2.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs-sources/jdo2-api-2.3-eb-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs-sources/google-http-client-jackson2-1.14.1-beta-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs-sources/google-http-client-android-1.14.1-beta-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs-sources/commons-logging-1.1.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs-sources/httpcore-4.0.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs-sources/jackson-core-2.1.3-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs-sources/google-http-client-jackson-1.14.1-beta-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs-sources/jetty-6.1.26-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs-sources/transaction-api-1.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs-sources/jetty-util-6.1.26-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs-sources/google-api-client-appengine-1.14.1-beta-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs-sources/google-oauth-client-1.14.1-beta-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs-sources/xpp3-1.1.4c-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs-sources/httpclient-4.0.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs-sources/google-api-client-java6-1.14.1-beta-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs-sources/google-oauth-client-servlet-1.14.1-beta-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs-sources/google-oauth-client-java7-1.14.1-beta-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs-sources/google-api-client-android-1.14.1-beta-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs-sources/google-http-client-appengine-1.14.1-beta-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs-sources/google-oauth-client-jetty-1.14.1-beta-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs-sources/google-oauth-client-appengine-1.14.1-beta-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs-sources/google-http-client-gson-1.14.1-beta-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs-sources/jackson-core-asl-1.9.11-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs-sources/google-api-client-servlet-1.14.1-beta-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs-sources/google-oauth-client-java6-1.14.1-beta-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs-sources/google-http-client-1.14.1-beta-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/endpoint-libs/libdeviceinfoendpoint-v1/deviceinfoendpoint/libs-sources/google-api-client-1.14.1-beta-sources.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,15 @@
+indexes:
+- kind: RegisteredUser
+    ancestor: yes
+
+- kind: RegisteredUser
+    ancestor: yes
+    properties:
+        - name: location
+        direction: desc
+        - name: destination
+        direction: desc
+        - name: from_t
+        direction: desc  
+        - name: to_t
+        direction: desc

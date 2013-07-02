@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RideShare</string>
+    <string name="action_settings">सेटिंग्स</string>
+
+    <string name="notifications_title">सूचनाएं</string>
+    <string name="notifications">अधिसूचनाएं</string>
+
+    <string name="RSU_join_request">शामिल होने के लिए RSU अनुरोध</string>
+    <string name="RSU_pay_ROU">आप यात्रा के लिए चालक का भुगतान करना होगा</string>
+
+    <string name="ROU_accepted">ROU अनुरोध स्वीकार कर लिया है</string>
+
+    <string name="payment_title">भुगतान</string>
+
+    <string name="pay_button">अब भुगतान</string>
+    <string name="User_info_title">उपयोगकर्ता जानकारी</string>
+    <string name="user_info_name">नाम \:</string>
+    <string name="user_phone_num">फोन नंबर \:</string>
+
+    <string name="hello_world">दुनिया नमस्कार!</string>
+    <string name="post">पद</string>
+    <string name="new_ride_request">नई सवारी अनुरोध</string>
+    <string name="current_location">वर्तमान स्थान</string>
+    <string name="destination">गंतव्य</string>
+    <string name="date">तारीख &#8211; उदाहरणार्थ\: 01\/21\/99</string>
+    <string name="new_ride_offer">नई सवारी प्रस्ताव</string>
+    <string name="date_time_departure">तारीख &amp; प्रस्थान का समय</string>
+    <string name="available_seats">उपलब्ध सीटें</string>
+    <string name="cost_per_seat">लागत / सीट</string>
+    <string name="zero_currency">$0.00</string>
+    <string name="seats">सीटें</string>
+    <string name="pickup">पिक जानकारी</string>
+    <string name="time_pickup">समय &#8211; उदाहरणार्थ\: 14\:30</string>
+    <string name="ride_search">खोज की सवारी</string>
+    <string name="date_time_range">तारीख &amp; समय सीमा</string>
+    <string name="from">से &#8211; उदाहरणार्थ\: 14\:30 </string>
+    <string name="to">से &#8211; उदाहरणार्थ\: 14\:30</string>
+    <string name="offer">प्रस्ताव</string>
+    <string name="request">अनुरोध</string>
+    <string name="search">खोज</string>
+    <string name="name">नाम</string>
+    <string name="name_lower">नाम</string>
+    <string name="email_upper">ईमेल</string>
+    <string name="phone_upper">फोन</string>
+    <string name="email_lower">ईमेल</string>
+    <string name="password_upper">पासवर्ड</string>
+    <string name="password_lower">पासवर्ड</string>
+    <string name="optional_upper">वैकल्पिक</string>
+    <string name="car_model">कार मॉडल</string>
+    <string name="car_year">कार वर्ष</string>
+    <string name="register">रजिस्टर</string>
+    <string name="my_profile">मेरा प्रोफाइल</string>
+    <string name="my_profile_descriptor">अपनी जानकारी को देखें और अद्यतन</string>
+
+    <string name="notification_descriptor">अपनी सवारी अनुरोध और सवारी प्रस्ताव देखें</string>
+    <string name="request_a_ride">एक सवारी के लिए अनुरोध करें</string>
+    <string name="request_a_ride_descriptor">एक सवारी की आवश्यकता है? दुनिया को पता</string>
+    <string name="share_a_trip">एक ट्रिप साझा करें</string>
+    <string name="share_a_trip_descriptor">दुनिया को बचाने! दूसरों को अपने क्लासीफाइड में शामिल होने की अनुमति दें</string>
+    <string name="search_descriptor">सवारी प्रदान करता है और अनुरोध के लिए खोज</string>
+    <string name="my_trips">मेरा यात्राएं</string>
+    <string name="my_trips_descriptor">आपके स्वीकृत और लंबित यात्राएं देखें</string>
+    <string name="phone_number">फोन नंबर</string>
+    <string name="phone_number_upper">फ़ोन नंबर</string>
+    <string name="login">लॉगिन</string>
+    <string name="i_am_new_user">मैं \'मी एक नया यूजर</string>
+    <string name="remember_me">मुझे याद है</string>
+    <string name="user_email">प्रयोक्ता नाम</string>
+    <string name="user_info_email">ईमेल:</string>
+    <string name="user_password">पासवर्ड</string>
+    <string name="ride_share">RideShare</string>
+    
+    <string name="profile_user_name">Derp Derpinson</string>
+    <string name="edit">संपादित करें</string>
+    <string name="profile_user_email">DerpDerpinson@gmail.com</string>
+    <string name="profile_user_phone">(925) 555&#8211;5555</string>
+    <string name="profile_user_location">Davis, CA</string>
+    <string name="current_location_upper">वर्तमान स्थान</string>
+    <string name="location">स्थान</string>
+    <string name="location_upper">स्थिति</string>
+    <string name="destination_upper">पर्यटन स्थल</string>
+    <string name="date_time_departure_upper">रवाना</string>
+    <string name="available_seats_upper">उपलब्ध सीटों</string>
+    <string name="cost_per_seat_upper">लागत / सीट</string>
+    
+       <!-- Network Activity Strings -->
+    <string name="server_error">सर्वर त्रुटि</string>
+	<string name="interrupted">बाधित</string>
+	<string name="cancelled">रद्द</string>
+	<string name="connection_timed_out">कनेक्शन टाइम आउट</string>
+	<string name="connection_failed">कनेक्शन विफल</string>
+	<string name="unknown_connection_error">अज्ञात कनेक्शन त्रुटि</string>
+	<string name="no_connection">कोई संबंध नहीं</string>
+
+	<!-- Login Screen -->
+	<string name="please_login">लॉगिन करें</string>
+	<string name="email_invalid">ईमेल अमान्य है</string>
+	<string name="password_invalid">पासवर्ड अमान्य है</string>
+	<string name="incorrect">गलत</string>
+    
+    <!--BEGIN Activity: SEARCH RESULT  -->
+    <string name="search_results_title">खोज परिणाम</string>
+    <string name="date_error">तिथि प्रारूप त्रुट</string>
+    <string name="time_error">समय त्रुटि</string>
+    <!--END Activity: SEARCH RESULT  -->
+
+	<!-- Registration Screen -->
+	<string name="email_too_short">ईमेल में कम से कम 4 वर्ण लंबा होना चाहिए</string>
+	<string name="email_too_long">ईमेल सबसे कम 25 वर्ण लंबा होना चाहिए</string>
+	<string name="passw_too_short">पासवर्ड कम से कम 6 अक्षरों का होना चाहिए</string>
+	<string name="passw_too_long">पासवर्ड ज्यादा से ज्यादा 20 अक्षरों का होना चाहिए</string>
+	<string name="no_phone_num">एक फोन नंबर आवश्यक है</string>
+	<string name="no_name">एक नाम आवश्यक है</string>
+	<string name="rate_after_ride">सवारी के बाद दर</string>
+	<string name="registration_success">पंजीकरण सफल!</string>
+	
+	<!-- Payment Screen -->
+	<string name="card_number">कार्ड संख्या</string>
+	
+	<!-- Multiple Screens -->
+	<string name="error_user_info">त्रुटि हो रही उपयोगकर्ता की जानकारी. पुन: प्रयास करें.</string>
+</resources>

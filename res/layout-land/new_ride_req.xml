@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView		xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+    
+	<RelativeLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" >
+	
+	    <TextView
+	        android:id="@+id/current_location_section_header"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="4dp"
+	        android:text="@string/location_upper"
+	        android:textColor="#aaaaaa"
+	        android:textStyle="bold"/>
+	
+	    <EditText
+	        android:id="@+id/date_editText"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/date_time_pickup_section_header"
+	        android:layout_marginTop="3dp"
+	        android:ems="10"
+	        android:hint="@string/date"
+	        android:inputType="date"/>
+	
+	    <TextView
+	        android:id="@+id/destination_section_header"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/current_location_editText"
+	        android:layout_marginLeft="4dp"
+	        android:layout_marginTop="20dp"
+	        android:text="@string/destination_upper"
+	        android:textColor="#aaaaaa"
+	        android:textStyle="bold"/>
+	
+	    <View
+	        android:id="@+id/view1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="1dp"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/current_location_section_header"
+	        android:layout_marginLeft="7dp"
+	        android:layout_marginRight="7dp"
+	        android:background="#cccccc" />
+	
+	    <EditText
+	        android:id="@+id/current_location_editText"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/view1"
+	        android:layout_marginTop="3dp"
+	        android:ems="10"
+	        android:hint="@string/location"
+	        android:inputType="textPostalAddress" />
+	
+	    <View
+	        android:id="@+id/view2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="1dp"
+	        android:layout_alignBottom="@+id/destination_section_header"
+	        android:layout_alignParentLeft="true"
+	        android:layout_marginLeft="7dp"
+	        android:layout_marginRight="7dp"
+	        android:background="#cccccc" />
+	
+	    <View
+	        android:id="@+id/view3"
+	        android:layout_width="fill_parent"
+	        android:layout_height="1dp"
+	        android:layout_alignBottom="@+id/date_time_pickup_section_header"
+	        android:layout_alignParentLeft="true"
+	        android:layout_marginLeft="7dp"
+	        android:layout_marginRight="7dp"
+	        android:background="#cccccc" />
+	
+	    <EditText
+	        android:id="@+id/destination_editText"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_alignTop="@+id/view2"
+	        android:layout_marginTop="3dp"
+	        android:ems="10"
+	        android:hint="@string/destination"
+	        android:inputType="textPostalAddress" >
+	
+	        <requestFocus />
+	    </EditText>
+	
+	    <EditText
+	        android:id="@+id/time_pickup_editText"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_alignTop="@+id/view3"
+	        android:layout_marginTop="3dp"
+	        android:layout_toRightOf="@+id/date_editText"
+	        android:ems="10"
+	        android:hint="@string/time_pickup"
+	        android:inputType="time"/>
+	
+	    <TextView
+	        android:id="@+id/date_time_pickup_section_header"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/destination_editText"
+	        android:layout_marginLeft="4dp"
+	        android:layout_marginTop="20dp"
+	        android:text="@string/date_time_departure_upper"
+	        android:textColor="#aaaaaa"
+	        android:textStyle="bold"/>
+	
+	    <Button
+	        android:id="@+id/button_post"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/date_editText"
+	        android:background="@android:color/holo_orange_dark"
+	        android:onClick="postClickR"
+	        android:text="@string/post"
+	        android:textColor="#ffffff" />
+	
+	</RelativeLayout>
+</ScrollView>

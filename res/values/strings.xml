@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RideShare</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="notifications_title">NOTIFICATIONS</string>
+    <string name="notifications">Notifications</string>
+
+    <string name="RSU_join_request">RSU Request To Join</string>
+    <string name="RSU_pay_ROU">You must pay Driver for trip</string>
+
+    <string name="ROU_accepted">ROU Has Accepted Request</string>
+
+    <string name="payment_title">PAYMENT</string>
+
+    <string name="pay_button">PAY NOW</string>
+    <string name="User_info_title">USER INFO</string>
+    <string name="user_info_name">Name: </string>
+    <string name="user_phone_num">Phone Number: </string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="post">Post</string>
+    <string name="new_ride_request">New Ride Request</string>
+    <string name="current_location">Current Location</string>
+    <string name="destination">Destination</string>
+    <string name="date">Date &#8211; eg: 01/21/99</string>
+    <string name="new_ride_offer">New Ride Offer</string>
+    <string name="date_time_departure">Date &amp; Time of Departure</string>
+    <string name="date_time_departure_upper">DEPARTURE </string>
+    <string name="available_seats">Available Seats</string>
+    <string name="cost_per_seat">Cost/Seat</string>
+    <string name="zero_currency">$0</string>
+    <string name="seats">Seats</string>
+    <string name="pickup">Pickup Info</string>
+    <string name="time_pickup">Time &#8211; eg: 14:30</string>
+    <string name="ride_search">Ride Search</string>
+    <string name="date_time_range">Date &amp; Time Range</string>
+    <string name="from">From &#8211; eg: 14:30 </string>
+    <string name="to">To &#8211; eg: 14:30</string>
+    <string name="offer">Offer</string>
+    <string name="request">Request</string>
+    <string name="search">Search</string>
+    <string name="name">NAME</string>
+    <string name="name_lower">Name</string>
+    <string name="email_upper">EMAIL</string>
+    <string name="phone_upper">PHONE</string>
+    <string name="location">Location</string>
+    <string name="destination_upper">DESTINATION</string>
+    <string name="location_upper">LOCATION</string>
+    <string name="email_lower">Email</string>
+    <string name="password_upper">PASSWORD</string>
+    <string name="password_lower">Password</string>
+    <string name="optional_upper">OPTIONAL</string>
+    <string name="car_model">Car Model</string>
+    <string name="car_year">Car Year</string>
+    <string name="register">Register</string>
+    <string name="my_profile">My Profile</string>
+    <string name="my_profile_descriptor">View and update your information</string>
+
+    <string name="notification_descriptor">View your ride requests and ride offers</string>
+    <string name="request_a_ride">Request A Ride</string>
+    <string name="request_a_ride_descriptor">Need a ride? Let the world know</string>
+    <string name="share_a_trip">Share A Trip</string>
+    <string name="share_a_trip_descriptor">Save the world! Allow others to join your carpool</string>
+    <string name="search_descriptor">Search for ride offers and requests</string>
+    <string name="my_trips">My Trips</string>
+    <string name="my_trips_descriptor">View your accepted and pending trips</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="phone_number_upper">PHONE NUMBER</string>
+    <string name="login">Login</string>
+    <string name="i_am_new_user">I\'m a New User</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="user_email">Username</string>
+    <string name="user_info_email">Email:</string>
+    <string name="user_password">Password</string>
+    <string name="ride_share">RideShare</string>
+    
+    <string name="profile_user_name">Derp Derpinson</string>
+    <string name="edit">EDIT</string>
+    <string name="profile_user_email">DerpDerpinson@gmail.com</string>
+    <string name="profile_user_phone">(925) 555&#8211;5555</string>
+    <string name="profile_user_location">Davis, CA</string>
+    <string name="available_seats_upper">AVAILABLE SEATS</string>
+    <string name="cost_per_seat_upper">COST/SEAT</string>
+    <string name="current_location_upper">CURRENT LOCATION</string>
+    
+    <!--BEGIN Activity: SEARCH  -->
+    <string name="order_by_tv">Order Results By:</string>
+    <string name="by_departure">departure</string>
+    <string name="by_rating">rating</string>
+    <string name="date_error">Date format Error</string>
+    <string name="time_error">Time format Error</string>
+    <!--END Activity: SEARCH  -->
+    
+    <!--BEGIN Activity: SEARCH RESULT  -->
+    <string name="search_results_title">SEARCH RESULTS</string>
+    <!--END Activity: SEARCH RESULT  -->
+    
+    <!-- Network Activity Strings -->
+    <string name="server_error">Server Error</string>
+	<string name="interrupted">Interrupted</string>
+	<string name="cancelled">Canceled</string>
+	<string name="connection_timed_out">Connection Timed Out</string>
+	<string name="connection_failed">Connection Failed</string>
+	<string name="unknown_connection_error">Unknown Connection Error</string>
+	<string name="no_connection">No Connection</string>
+
+	<!-- Login Screen -->
+	<string name="please_login">Please login</string>
+	<string name="email_invalid">Email is Invalid</string>
+	<string name="password_invalid">Password is invalid</string>
+	<string name="incorrect">Incorrect Email or Password</string>
+	
+	<!-- Registration Screen -->
+	<string name="email_too_short">Email must be at least 4 characters long</string>
+	<string name="email_too_long">Email must be at most 25 characters long</string>
+	<string name="passw_too_short">Password must be at least 6 characters long</string>
+	<string name="passw_too_long">Password must be at most 20 characters long</string>
+	<string name="no_phone_num">A Phone Number is Required</string>
+	<string name="no_name">A Name is Required</string>
+	<string name="rate_after_ride">Rate After the Ride</string>
+	<string name="registration_success">Registration Successful!</string>
+	<!-- Payment Screen -->
+	<string name="card_number">Card Number</string>
+	
+	<!-- Multiple Screens -->
+	<string name="error_user_info">Error getting user info. Please try again.</string>
+	
+	
+</resources>
