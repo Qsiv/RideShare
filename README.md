@@ -1,4 +1,4 @@
 RideShare
 =========
 
-Android Carpooling application - Class project, not for public use. 
+Android Carpooling application - Class project (team of 4), not for public use. 
